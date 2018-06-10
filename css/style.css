@@ -1,0 +1,16 @@
+body{
+  background-color: #cdcdcd;
+}
+#header{
+  background-color: black;
+  margin-top: -7%;
+  margin-right: -8px;
+  margin-left: -8px;
+}
+#header h1{
+  color: #ffffff;
+  font-size: 100px;
+  text-align: center;
+  font-family: monospace;
+  padding-top: 2%;
+}
