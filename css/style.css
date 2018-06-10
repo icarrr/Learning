@@ -39,3 +39,21 @@ body{
   background-color: #fff;
   color: #000;
 }
+#content{
+  background-color: white;
+  min-height: 1200px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  text-align: justify;
+}
+#content p{
+  text-indent: 50px;
+}
+.col-1{
+  width: 48%;
+  float: left;
+  padding-left: 2%;
+}
