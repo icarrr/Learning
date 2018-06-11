@@ -57,3 +57,12 @@ body{
   float: left;
   padding-left: 2%;
 }
+#footer{
+  margin-top: -3%;
+  background-color: #7aee1f;
+  height: 40px;
+  line-height: 40px;
+  margin-right: -8px;
+  margin-left: -8px;
+  text-align: center;
+}
