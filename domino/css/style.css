@@ -1,3 +1,126 @@
 body{
-  background-color: #000000;
+	background-color: #000000;
+}
+#domino{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+#domino1{
+	margin-top: 20px;
+}
+.box{
+	background-color: yellow;
+	border-color: red;
+	border-style: solid;
+	width: 100px;
+	height: 115px;
+}
+.isi{
+	background-color: red;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 20px;
+	margin-top: 24px;
+}
+#domino2{
+	margin-top: 20px;
+}
+.isi2{
+	background-color: red;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.g {
+	margin-left: 50px;
+	margin-top: 18px;
+}
+#domino3{
+	margin-top: 20px;
+}
+.isi3{
+	background-color: red;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.h{
+	margin-left: 32px;
+}
+.j{
+	margin-left: 60px;
+}
+#domino4{
+	margin-top: 20px;
+}
+.isi4{
+	background-color: red;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-top: 14px;
+}
+.w{
+	margin-left: 54px;
+	margin-top: -84px;
+}
+.e{
+	margin-left: 54px;
+}
+#domino5{
+	margin-top: 20px
+}
+.isi5{
+	background-color: red;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.r{
+	margin-top: 39px;
+}
+.t{
+	margin-top: -65px;
+	margin-left: 32px;
+}
+.y{
+	margin-top: -64px;
+	margin-left: 58px;
+}
+.u{
+	margin-top: 38px;
+	margin-left: 58px;
+}
+#domino6{
+	margin-top: 20px;
+}
+.isi6{
+	background-color: red;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.a{
+	margin-left: 58px;
+	margin-top: -100px;
+}
+.s{
+	margin-top: 5px;
+	margin-left: 58px;
+}
+.d{
+	margin-top: 5px;
+	margin-left: 58px;
 }
