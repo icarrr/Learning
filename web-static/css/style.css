@@ -1,0 +1,136 @@
+#container{
+  width: 100%;
+  height: 100%;
+}
+#navbar{
+  height: 99px;
+  background-color: #000;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -1%;
+  padding: 1%;
+}
+#navbar img{
+  padding-left: 90px;
+}
+#navbar ul{
+  margin-top: -67px;
+  padding-left: 470px;
+  text-align: center;
+}
+#navbar ul li{
+  display: inline;
+  color: #eee;
+  padding-left: 0px;
+}
+#navbar ul li a{
+    line-height: 24px;
+    padding: 55px;
+    text-decoration: none;
+    color: #eee;
+    text-align: center;
+}
+#navbar ul li a:hover{
+  background-color: #babbba;
+  color: #000;
+}
+#header{
+  height: 250px;
+  background-color: #ed3237;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -2%;
+  text-align: center;
+}
+#header h1{
+  padding-top: 55px;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: -10px;
+}
+#header ul li{
+  display: inline;
+}
+#header ul li a{
+    padding: 49px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+#header ul li a:hover{
+  color: #ffffff;
+}
+#content{
+  height: 990px;
+  background-color: #00194b;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -3%;
+}
+#content h2{
+  text-align: center;
+  color: #fff;
+  padding-top: 32px;
+  font-size: 218%;
+}
+.wadah{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  padding-left: 125px;
+}
+.column{
+  background-color: #fff;
+  width: 26%;
+  height: 360px;
+  float: left;
+  margin: 1px;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+.column h4{
+  font-size: 25px;
+  margin-bottom: -4px;
+}
+.column ul{
+  padding-left: 16px;
+}
+.column ul li{
+  color: #c2c2c2;
+}
+.column ul li a{
+  text-decoration: none;
+  color: #1708f3;
+}
+.column ul li a:hover{
+  text-decoration: underline;
+  color: #000;
+}
+#footer{
+  height: 70px;
+  background-color: #1c1c22;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -2%;
+  margin-bottom: -8px;
+}
+.copyright{
+  height: 60px;
+  line-height: 30px;
+  color: #fff;
+  padding-left: 130px;
+  float: left;
+}
+.tos{
+  height: 60px;
+  line-height: 60px;
+  padding-left: 1020px;
+  color: #fff;
+}
+.tos a{
+  color: #fff;
+  text-decoration: none;
+}
+.tos a:hover{
+  text-decoration: underline;
+}
