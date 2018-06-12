@@ -1,0 +1,20 @@
+#domino1{
+	margin-top: auto;
+}
+.box{
+	background-color: yellow;
+	border-color: red;
+	border-style: solid;
+	width: 100px;
+	height: 115px;
+}
+.isi{
+	background-color: red;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 20px;
+	margin-top: 24px;
+}
