@@ -1,29 +1,16 @@
 <?php
-//integer
-$a1 = 100;
-echo $a1;
-
-//double/float/real
-$a2 = 1.00;
+//menentukan jumlah string
+echo strlen ("PanglimaSetan");
 echo "<br>";
-echo $a2;
+//menentukan jumlah kata
+echo str_word_count("Panglima Setan BSD");
 echo "<br>";
-
-//boolean
-$b = 10;
-if ($b > 15) {
-  // code...
-  echo "benar";
-} else {
-  // code...
-  echo "salah";
-}
-
-//null
-$c = null;
-
-//string
-$d = "saya seorang Panglima Setan";
+//mambalikkan string
+echo strrev("SetanBSD");
 echo "<br>";
-echo $d;
-?>
+//menentukan letak karakter yang sama
+echo strpos("Panglima SetanBSD", "BSD");
+echo "<br>";
+//mengganti string
+echo str_replace("BSD", "Ganteng", "PanglimaSetanBSD");
+ ?>
