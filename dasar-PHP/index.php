@@ -1,12 +1,26 @@
 <?php
-$x = 5;
-$y = 3;
-// operator aritmatika
-echo $x + $y, "<br/>"; //penjumlahan
-echo $x - $y, "<br/>"; //pengurangan
-echo $x * $y, "<br/>"; //perkalian
-echo $x / $y, "<br/>"; //pembagian
-echo $x % $y, "<br/>"; //modulus atau mod
-echo $x + -$y, " minus <br/>"; //minus
-echo $x - +$y, " plus <br/>"; //plus
+$x = 10;
+if ($x > 9) {
+  echo "Mantappp";
+} else {
+  echo "Oh, maaf yah";
+}
+echo "<br />";
+
+$y = "12 kata";
+if ($y == 12) {
+  echo "1";
+} else {
+  echo "0";
+}
+
+echo "<br />";
+$umur = 17;
+if ($umur < 16) {
+  echo "Dia masih sekolah";
+}elseif ($umur <20) {
+  echo "Dia sudah tamat sekolah";
+}else {
+  echo "Dia harus kerja";
+}
  ?>
