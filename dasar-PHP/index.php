@@ -1,26 +1,38 @@
 <?php
-$x = 10;
-if ($x > 9) {
-  echo "Mantappp";
-} else {
-  echo "Oh, maaf yah";
+$x = 'windows';
+echo "Anda terindikasi sebagai? ";
+switch ($x) {
+  case 'windows ori':
+    echo "Kemungkinan anda pengguna bajakan";
+    break;
+  case 'windows 7 oem':
+    echo "Kemungkinan windows anda original tapi software bajakan";
+    break;
+  default:
+    echo "Anda pengguna open source";
+    break;
 }
-echo "<br />";
+echo "<br/>";
 
-$y = "12 kata";
-if ($y == 12) {
-  echo "1";
-} else {
-  echo "0";
-}
-
-echo "<br />";
-$umur = 17;
-if ($umur < 16) {
-  echo "Dia masih sekolah";
-}elseif ($umur <20) {
-  echo "Dia sudah tamat sekolah";
-}else {
-  echo "Dia harus kerja";
+$y = 60;
+switch (true) {
+  case ($y < 60):
+    echo "Anda dinyatakan tidak lulus";
+    break;
+  case ($y == 60):
+    echo "Anda dinyatakan lulus";
+    break;
+  case ($y > 60 && $y < 70):
+    echo "Anda dinyatakan lulus tapi miris gak lulus";
+    break;
+  case ($y == 70 && $y < 90):
+    echo "Anda dinyatakan lulus dengan nilai baik";
+    break;
+  case ($y > 90):
+    echo "Anda sangat hebat";
+    break;
+  default:
+    echo "Anda sangat sangat hebat";
+    break;
 }
  ?>
