@@ -1,28 +1,33 @@
 <?php
-for ($x=1; $x <= 10 ; $x++) {
-  echo "ini baris : $x";
-  echo "<br/>";
+$x = array("Icar", "siBunglon", "Olivia");
+$x[2] = "ganteng";
+for ($i=0; $i < count($x); $i++) {
+  echo $x[$i]."<br/>";
 }
-
-$a = 0;
-while ($a < 10) {
-  echo "ini ke-$a <br/>";
-  $a++; //kalau ini dihilangkan, perulangan tidak akan berhenti
-}
-
-$b = 0;
-do {
-  echo "ini $b <br/>";
-  $b++; //kalau ini dihilangkan, perulangan tidak akan berhenti
-} while ($b < 10);
-
-$theme = [
-  "theme anu aa",
-  "theme anu bb",
-  "theme bb",
-  "theme aa"
+$y = [
+  "nama" => "icar",
+  "umur" => "18",
+  "asal" => "Bulukumba"
 ];
-foreach ($theme as $key ) {
-  echo "$key <br/>";
+echo "Namanya ialah ".$y["nama"].", berumur ".$y["umur"]." tahun dan berasal dari ".$y["asal"];
+$z = [
+  [
+    "nama" => "icar",
+    "umur" => "18",
+    "asal" => "Bulukumba"
+  ],
+  [
+    "nama" => "setan BSD",
+    "umur" => "17",
+    "asal" => "anu"
+  ]
+];
+echo "<br/>";
+$age = 17;
+if ($age <= 17) {
+  echo "Namanya ialah ".$z[1]["nama"].", berumur".$z[1]["umur"]." tahun dan berasal dari ".$z[1]["asal"];
+}else {
+  echo "Tidak ada data yang cocok";
 }
+
  ?>
