@@ -1,6 +1,6 @@
 <?php
-$nama = $_GET['nama'];
-$usia = $_GET['usia'];
+$nama = $_POST['nama'];
+$usia = $_POST['usia'];
 echo "Hello World!","<br>";
 echo "Data atas nama ".$nama," telah di konfirmasi", "<br>";
 echo "Usia anda adalah ".$usia, " tahun","<br>";
