@@ -1,12 +1,16 @@
-<?php
-function anu(){
-  echo "sibunglon";
-  echo "ganteng";
-}
-anu();
-echo "<br/>";
-function sesi_kenalan($name = "Faizar Septiawan", $nickname = "icar"){
-  echo "Hallo, nama saya ".$name, " dan biasa dipanggil ".$nickname ;
-}
-sesi_kenalan();
- ?>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Belajar PHP</title>
+  </head>
+  <body>
+    <form method="get" action="get.php">
+      <label>Masukkan nama</label><br>
+      <input type="text" name="nama" placeholder="Ex= Anu" required><br>
+      <label>Masukkan usia</label><br>
+      <input type="text" name="usia" placeholder="Ex= 18" required><br>
+      <input type="submit" value="Go">
+    <form/>
+  </body>
+</html>
