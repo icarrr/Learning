@@ -1,5 +1,6 @@
 <?php
   class olivia{
-    // isi class  
+    var $keyboard;
+    var $monitor;
   }
  ?>
