@@ -10,6 +10,12 @@ class olivia{
   function kapan(){
     return "Kemarinnya kemarin";
   }
+  function __construct(){
+    echo "ini construct";
+  }
+  function __destruct(){
+    echo "ini destruct";
+  }
 }
 
 $icar = new olivia();
