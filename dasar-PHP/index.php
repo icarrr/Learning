@@ -10,5 +10,14 @@ class olivia{
   function kapan(){
     return "Kemarinnya kemarin";
   }
-};
+}
+
+$icar = new olivia();
+
+$icar->keyboard="Asus keyboard";
+$icar->monitor="Sudah ganti";
+
+echo $icar->monitor;
+echo "<br/>";
+echo $icar->kapan();
  ?>
