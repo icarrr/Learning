@@ -1,41 +1,36 @@
 <?php
-class olivia{
-  public $keyboard;
-  public $monitor;
+class belajar{
+  public $materi;
+  public $sub_materi;
+  public $ref;
 
-  public function kenapa()
-  {
-    return "Ketindis";
-  }
-  public function kapan(){
-    return "Kemarinnya kemarin";
+  public function apa_bikin(){
+    return "Belajar dan go to web dev";
   }
 }
 
-$icar = new olivia();
+class learning extends belajar
+{
 
-$icar->keyboard="Asus keyboard";
-$icar->monitor="Sudah ganti";
+  public function ngapain(){
+    return "Belajar apa?
+    <br/>
+    Jawab: $this->materi <br/>
+    Sudah sampai mana materinya?
+    <br/>
+    Jawab: $this->sub_materi <br/>
+    Belajarnya dari mana?
+    <br/>
+    Jawab: $this->ref";
+  }
+}
 
-echo "<h1>Public</h1>";
-echo $icar->monitor;
+$apa_bikin_coeg = new learning();
+$apa_bikin_coeg->materi = "PHP";
+$apa_bikin_coeg->sub_materi = "Inheritance";
+$apa_bikin_coeg->ref = "DuniaIlkom";
+
+echo $apa_bikin_coeg->apa_bikin();
 echo "<br/>";
-echo $icar->kapan();
-echo "<hr>";
-// batas public
-
-class olivia1{
-  protected $mouse = "pake mouse lenovo";
-  protected $board = "olivia";
-
-  public function merk()
-  {
-    return $this->mouse;
-  }
-}
-$icar1 = new olivia1();
-echo "<h1>Protected</h1>";
-echo $icar1->merk();
-echo "<hr>";
-// batas protected
- ?>
+echo $apa_bikin_coeg->ngapain();
+?>
